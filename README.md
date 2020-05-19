@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+# Unit 17 Nosql Homework: Workout Tracker
 
-You can use the [editor on GitHub](https://github.com/masterkaizer/Fitness-Tracker-by-BS/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+For this assignment, you'll create a workout tracker. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## User Story
 
-### Markdown
+* As a user, I want to be able to view create and track daily workouts.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Business Context
 
-```markdown
-Syntax highlighted code block
+A consumer will reach their fitness goals quicker when they track their workout progress.
 
-# Header 1
-## Header 2
-### Header 3
+## Acceptance Criteria
 
-- Bulleted
-- List
+When the user loads the page, they should be given the option to create a new workout, or continue with their last workout.
 
-1. Numbered
-2. List
+The user should be able to:
 
-**Bold** and _Italic_ and `Code` text
+  * Add exercises to a previous workout plan.
 
-[Link](url) and ![Image](src)
-```
+  * Add new exercises to a new workout plan.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Commit Early and Often
 
-### Jekyll Themes
+One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/masterkaizer/Fitness-Tracker-by-BS/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
 
-### Support or Contact
+2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Follow these guidelines for committing:
+
+* Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+
+* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+
+* Don't commit half done work, for the sake of your collaborators (and your future self!)
+
+* Test your application before you commit to ensure functionality at every step in the development process
+
+We would like you to have well over 200 commits by graduation, so commit early and often!
+
+## Submission on BCS
+
+You are required to submit the following:
+
+* The URL to the deployed application
+
+* The URL to the Github repository
