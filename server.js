@@ -12,7 +12,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use(express.static("public"));
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://devTrack:Blaugranna-19@ds161794.mlab.com:61794/heroku_40x0ptdl
+";
 mongoose.connect(MONGODB_URI);
 mongoose.connect("mongodb://devTrack:Blaugranna-19@ds161794.mlab.com:61794/heroku_40x0ptdl", {
   useNewUrlParser: true,
