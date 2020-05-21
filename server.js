@@ -12,13 +12,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use(express.static("public"));
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://devTrack:Blaugranna-19@ds161794.mlab.com:61794/heroku_40x0ptdl
-";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/fitnesstracker";
 mongoose.connect(MONGODB_URI);
-mongoose.connect("mongodb://devTrack:Blaugranna-19@ds161794.mlab.com:61794/heroku_40x0ptdl", {
-  useNewUrlParser: true,
-  useFindAndModify: false
-});
+
 
 // routes
 app.use(require("./routes/api.js"));
